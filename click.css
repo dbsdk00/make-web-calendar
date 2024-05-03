@@ -1,0 +1,19 @@
+div {
+    font-size: 50;
+    background-color: black;
+    color: white;
+    text-align: center; /* 텍스트 정렬*/
+}
+    
+div:hover {
+    background-color: pink;
+    color: rgb(209, 178, 238);
+}
+
+div:active {
+    background-color: skyblue;
+    color: black;
+}
+
+/* Hover(맴돌다) - 마우스를 요소 위에 올려놨을 때
+Active(활동적인) - 요소를 클릭하거나 터치했을 때 */

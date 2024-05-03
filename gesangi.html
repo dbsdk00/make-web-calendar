@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title> <link rel="stylesheet" href="gesangi.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/8007/8007868.png">
+</head>
+<body onselectstart="return false"> <!-- 클립지정 안되게 함 -->
+    <script src="gesangi.js"></script>
+    <div id="background_perant">
+        <table>
+            <tr>
+                <th colspan="4">
+                    <input type="text" id="display" readonly>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <input type= "text" id= "result" readonly>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="3" onclick="reset_display()">AC</td>
+                <td onclick="add_char('/')" class="operator">/</td>
+            </tr>
+            <tr>
+                <td onclick="add_char(7)">7</td>
+                <td onclick="add_char(8)">8</td>
+                <td onclick="add_char(9)">9</td>
+                <td onclick="add_char('*')" class="operator">*</td>
+            </tr>
+            <tr>
+                <td onclick="add_char(4)">4</td>
+                <td onclick="add_char(5)">5</td>
+                <td onclick="add_char(6)">6</td>
+                <td onclick="add_char('-')" class="operator">-</td>
+            </tr>
+            <tr>
+                <td onclick="add_char(1)">1</td>
+                <td onclick="add_char(2)">2</td>
+                <td onclick="add_char(3)">3</td>
+                <td onclick="add_char('+')" class="operator">+</td>
+            </tr>
+            <tr>
+                <td colspan="2" onclick="add_char(0)">0</td>
+                <td onclick="add_char('.')">.</td>
+                <td onclick="calculrate()" class="operator">=</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+    </html>

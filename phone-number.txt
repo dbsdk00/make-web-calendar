@@ -1,0 +1,37 @@
+010-2124-1255
+typidoyun@gmail.com
+typidoyun@gmail.com
+010-2124-1255
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+010-2124-1255 
+010-2124-1255
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+typidoyun@gmail.com
+    typidoyun@gmail.com
+    typidoyun@gmail.com
+    010-2124-1255
+010-2124-1255
+010-2124-1255
+010-2124-1255
+010-2124-1255
+010-2124-1255
+010-2124-1255
+010-2124-1255
+    010-2124-1255
+    010-2124-1255
+    010-2124-1255
+
+전화번호를 다 찾는 정규 표현식 (\d{3})-(\d{4})-(\d{4})
+전화번호를 원하는 형식으로 변형하는 문자열 템플릿 ㅋㅋ

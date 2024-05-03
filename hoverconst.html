@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover 연결 예시</title>
+<style>
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    font-size: 18px;
+    font-weight: normal;
+    transition: font-weight 0.3s ease;
+  }
+</style>
+</head>
+<body>
+
+<div class="box" onmouseover="changeFontWeight(true)" onmouseout="changeFontWeight(false)"></div>
+<div class="text" id="text">마우스를 상자 위에 올려보세요.</div>
+
+<script>
+  function changeFontWeight(shouldBold) {
+    const text = document.getElementById('text');
+    text.style.fontWeight = shouldBold ? 'bold' : 'normal';
+  }
+</script>
+
+</body>
+</html>
